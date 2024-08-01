@@ -38,7 +38,7 @@ python render_spherify.py -m output/piano
 
 **Comparison with 3DGS**
 
-<img src="assets/light1.gif" width="300"/><img src="assets/light2.gif" width="300"/>
+<img src="assets/3dgs.gif" width="300"/><img src="assets/ours.gif" width="300"/>
 
 **Light-Up Effect**
 
