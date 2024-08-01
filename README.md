@@ -28,11 +28,11 @@ bash run.sh
 
 **Comparison with 3DGS**
 
-<img src="assets/light1.gif" width="240"/><img src="assets/light2.gif" width="240"/>
+<img src="assets/light1.gif" width="300"/><img src="assets/light2.gif" width="300"/>
 
 **Light-Up Effect**
 
-<img src="assets/light1.gif" width="240"/><img src="assets/light2.gif" width="240"/>
+<img src="assets/light1.gif" width="300"/><img src="assets/light2.gif" width="300"/>
 
 ## Acknowledgement
 
