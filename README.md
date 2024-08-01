@@ -21,7 +21,17 @@ This repository contains the official authors implementation associated with the
 First, please make sure that all requirements are satisfied and all required files are downloaded (see above steps).
 
 ```
-bash run.sh
+# Train with train/test split
+python train.py -r 4 -s datasets/dark/piano -m output/piano --port 1111 --eval
+
+# Generate renderings
+python render.py -m output/piano
+
+# Compute metrics on renderings
+python metrics.py -m output/piano
+
+# More visualization
+python render_spherify.py -m output/piano
 ```
 
 ## Results
