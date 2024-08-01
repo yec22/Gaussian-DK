@@ -33,9 +33,7 @@ bash run.sh
 </center>
 
 **Light-Up Effect**
-<center class="half">
-    <img src="assets/light1.gif" width="200"/> <img src="assets/light2.gif" width="200"/>
-</center>
+<img src="assets/light1.gif" width="200"/><img src="assets/light2.gif" width="200"/>
 
 ## Acknowledgement
 
