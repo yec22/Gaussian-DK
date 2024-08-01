@@ -27,13 +27,12 @@ bash run.sh
 ## Results
 
 **Comparison with 3DGS**
-<center class="half">
-<img src="assets/light1.gif" style="width:47%"/>
-<img src="assets/light2.gif">
-</center>
+
+<img src="assets/light1.gif" width="240"/><img src="assets/light2.gif" width="240"/>
 
 **Light-Up Effect**
-<img src="assets/light1.gif" width="200"/><img src="assets/light2.gif" width="200"/>
+
+<img src="assets/light1.gif" width="240"/><img src="assets/light2.gif" width="240"/>
 
 ## Acknowledgement
 
