@@ -1,6 +1,6 @@
 # Gaussian in the Dark 😈
 
-This repository contains the official authors implementation associated with the paper "Gaussian in the Dark: Real-Time View Synthesis From Inconsistent Dark Images Using Gaussian Splatting", which has been accepted by Pacific Graphics 2024 (journal track).
+This repository contains the official authors implementation associated with the paper "Gaussian in the Dark: Real-Time View Synthesis From Inconsistent Dark Images Using Gaussian Splatting", which has been accepted by **Pacific Graphics 2024** (journal track).
 
 <img src="assets/teaser.png">
 
@@ -27,8 +27,16 @@ bash run.sh
 ## Results
 
 **Comparison with 3DGS**
+<center class="half">
+<img src="assets/light1.gif" width=240/>
+<img src="assets/light2.gif" width=240/>
+</center>
 
 **Light-Up Effect**
+<center class="half">
+<img src="assets/light1.gif" width=240/>
+<img src="assets/light2.gif" width=240/>
+</center>
 
 ## Acknowledgement
 
