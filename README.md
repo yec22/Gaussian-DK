@@ -16,9 +16,14 @@ This repository contains the official authors implementation associated with the
 
 ## Dataset
 
+To facilitate further research on novel view synthesis in dark conditions, we propose a **new challenging dataset** containing 12 real-world scenes (5 indoors and 7 outdoors). Each scene consists of approximately 80 to 130 regular format images.
+
+The proposed dataset can be downloaded from [here](https://pan.baidu.com/s/1xmZqYEJ5ZMkdldPS9_MgiQ?pwd=jf48) (~13G).
+
 ## Usage
 
-First, please make sure that all requirements are satisfied and all required files are downloaded (see above steps).
+First, please make sure that all requirements are satisfied.
+Then, following the scripts below to train, render, and evaluate.
 
 ```
 # Train with train/test split
