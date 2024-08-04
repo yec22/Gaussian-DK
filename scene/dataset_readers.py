@@ -179,25 +179,9 @@ def readColmapSceneInfo(path, images, eval, llffhold=8):
             train_test_split_sorted.reset_index(inplace=True, drop=True)
             train_cam_infos = [c for idx, c in enumerate(cam_infos) if train_test_split_sorted.loc[idx, 'split']=='train']
             test_cam_infos = [c for idx, c in enumerate(cam_infos) if train_test_split_sorted.loc[idx, 'split']=='test']
-        # else:
-        #     train_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold != 0]
-        #     test_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold == 0]
-          
-        # hdr-nerf test: randomly select an exposure from {t_1, t_3, t_5} for each input view
         else:
-            i_train = []  
-            np.random.seed(1)
-            exp_num = 5
-            for i in range(len(cam_infos) // (exp_num*2) + 1):
-                step = i*exp_num*2
-                i_train.append(np.random.choice([0+step, 2+step, 4+step], 1, replace=False))   
-            i_train = np.sort(np.array(i_train).reshape([-1]))
-            print("i_train", i_train)
-            i_test = [ idx for idx, c in enumerate(cam_infos) if (idx not in i_train) and (idx % 10 >= 5)]
-            print("i_test", i_test)
-            train_cam_infos = [c for idx, c in enumerate(cam_infos) if idx in i_train]
-            test_cam_infos = [c for idx, c in enumerate(cam_infos) if  idx in i_test]
-            print(len(train_cam_infos))
+            train_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold != 0]
+            test_cam_infos = [c for idx, c in enumerate(cam_infos) if idx % llffhold == 0]
             
     else:
         train_cam_infos = cam_infos
