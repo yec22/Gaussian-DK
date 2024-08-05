@@ -51,4 +51,4 @@ python render_spherify.py -m output/piano
 
 ## Acknowledgement
 
-Code of this repo is rely on [3DGS](https://github.com/graphdeco-inria/gaussian-splatting) and [HDR-NeRF](https://github.com/xhuangcv/hdr-nerf/). We thank the authors for their great job!
+Code of this repo is rely on [3DGS](https://github.com/graphdeco-inria/gaussian-splatting), [HDR-NeRF](https://github.com/xhuangcv/hdr-nerf/), and [Pixel-GS](https://github.com/zhengzhang01/Pixel-GS). We thank the authors for their great job!
